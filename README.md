@@ -5,8 +5,11 @@ This repository consist of code relevant for additive variance analysis performe
 Following dependencies are required to run this workflow.
 
 FunSeq2 (http://funseq2.gersteinlab.org/)
+
 Python
+
 Matlab
+
 GCTA (http://cnsgenomics.com/software/gcta/#Overview)
 
 This workflow consist of two components.
