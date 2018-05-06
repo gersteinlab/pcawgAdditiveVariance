@@ -29,23 +29,23 @@ This workflow consist of two components.
 
 2) post-processing steps
 
-Pipeline is run by calling additive_variance_demo.m
+   Pipeline is run by calling additive_variance_demo.m
 
-*******************
+   *******************
 
-Full pipeline requires the following inputs:
+   Full pipeline requires the following inputs:
 
-- in bedFiles folder:
-cohortName.null.bed
-cohortName.obs.bed
+    - in bedFiles folder:
+      cohortName.null.bed
+      cohortName.obs.bed
 
-- in summaryFiles folder:
-cohortName.null.summary.txt
-cohortName.obs.summary.txt
+   - in summaryFiles folder:
+     cohortName.null.summary.txt
+     cohortName.obs.summary.txt
 
-and generates the output cohortName.txt in the results folder.
+   and generates the output cohortName.txt in the results folder.
 
-A gcta executable is required (Linux version is included, Windows and Mac versions are available from cnsgenomics.com/software/gcta), which should be placed in the gctaFiles folder.
+  A gcta executable is required (Linux version is included, Windows and Mac versions are available from cnsgenomics.com/software/gcta), which should be placed in the gctaFiles folder.
 
 *******************
 
